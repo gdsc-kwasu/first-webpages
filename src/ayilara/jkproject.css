@@ -1,0 +1,71 @@
+#h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    font-family: Arial sans-serif;
+    color: black;
+}
+.heading{
+    float: left;
+    padding: 30px;
+}
+.flex{
+    list-style-type: none;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+}
+.mynav{
+    margin-top: 10px;
+    background-color: aliceblue;
+    height: 40px;
+    padding: 5px 30px;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+.head{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial sans-serif;
+    padding: 40px;
+    margin-top: 20px;
+    color: black;
+}
+.img{
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+
+}
+.tech, .prc, .ent{
+    color: black;
+    font-size: 25px;
+}
+.foot{
+    background-color: white;
+    padding-left: 50px;
+}
+.footer{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.essay{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    background-color: aliceblue;
+    margin-top: 10px;
+    padding: 30px;
+    color: black;
+    -webkit-flex-wrap: wrap;
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    -webkit-column-rule-style: solid;
+    -moz-column-rule-style: solid;
+}
+img{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: block;
+    max-width: 100%;
+}
